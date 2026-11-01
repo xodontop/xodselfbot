@@ -45,7 +45,6 @@ function setRichPresence(customText = null) {
             .setDetails(currentStatus)
             .setState('active')
             .setStartTimestamp(Date.now())
-            .addButton('gunslol', CONFIG.BUTTONS.gunslol)
             .addButton('xod', CONFIG.BUTTONS.xod);
 
         if (CONFIG.LARGE_IMAGE) rpc.setAssetsLargeImage(CONFIG.LARGE_IMAGE);
