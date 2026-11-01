@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 Self Bot By Butizada
+# 🤖 Self Bot By Davide
 
 Simple Discord Self Bot made with Node.js.
 
@@ -14,8 +14,8 @@ Simple Discord Self Bot made with Node.js.
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/872nl/Self-Bot-By-Butizada
-cd Self-Bot-By-Butizada
+git clone https://github.com/xodontop/xodselfbot
+cd xodselfbot
 npm install
 npm install discord.js-selfbot-v13 figlet
 node .
