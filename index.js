@@ -5,7 +5,7 @@ const CONFIG = {
     TOKEN: '',
     PREFIX: '.',
     BUTTONS: {
-        clyred: 'https://discord.gg/xod'
+        xod: 'https://discord.gg/xod'
     },
     STATUS_MESSAGES: [
         '???',
@@ -41,12 +41,12 @@ function setRichPresence(customText = null) {
             .setApplicationId('')
             .setType('STREAMING')
             .setURL('https://discord.com/invite/xod')
-            .setName('clyred is here')
+            .setName('xod is here')
             .setDetails(currentStatus)
             .setState('active')
             .setStartTimestamp(Date.now())
             .addButton('gunslol', CONFIG.BUTTONS.gunslol)
-            .addButton('clyred', CONFIG.BUTTONS.clyred);
+            .addButton('xod', CONFIG.BUTTONS.xod);
 
         if (CONFIG.LARGE_IMAGE) rpc.setAssetsLargeImage(CONFIG.LARGE_IMAGE);
 
